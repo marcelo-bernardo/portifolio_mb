@@ -36,3 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   floatElements.forEach(el => observer.observe(el));
 });
+
+
+ function toggleMobileNav() {
+  const nav = document.getElementById('mainNav');
+  nav.classList.toggle('active');
+}
+
