@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio | Marcelo Bernardo</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=stacked_email" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="shadow-sm border-bottom border-primary header-bg fixed-top">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+            <h1 class="fs-3 fw-semibold text-primary mb-2 mb-md-0">Marcelo Bernardo</h1>
+            <nav class="d-flex flex-wrap gap-2">
+                <a href="#inicio" class="btn btn-outline-primary">Início</a>
+                <a href="#sobre" class="btn btn-outline-primary">Sobre</a>
+                <a href="#projetos" class="btn btn-outline-primary">Projetos</a>
+                <a href="#habilidades" class="btn btn-outline-primary">Habilidades</a>
+                <a href="#contatos" class="btn btn-outline-primary">Contatos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="mt-5 pt-5" id="inicio">
+
+        <!-- Sobre Mim -->
+        <section id="sobre" class="container-fluid my-5 p-4 border border-primary rounded-4 shadow"
+            style="max-width: 1400px;">
+            <div class="row align-items-center g-4 mx-auto">
+                <div class="col-lg-7">
+                    <h2 class="mb-3 fw-bold text-primary text-center">Sobre Mim</h2>
+                    <p class="text-justify">
+                        Olá! Sou <strong class="text-primary">Marcelo Bernardo</strong>, Técnico em Informática para
+                        Internet pelo
+                        <abbr title="Instituto Federal do Amazonas" class="text-primary">IFAM</abbr>, estudante de
+                        Análise e
+                        Desenvolvimento de Sistemas pela <abbr title="Pontifícia Universidade Católica"
+                            class="text-primary">PUC</abbr> e também pela <abbr
+                            title="Universidade Federal de Mato Grosso do Sul" class="text-primary">UFMS</abbr>.
+                    </p>
+                    <p class="text-justify">
+                        Sou apaixonado por tecnologia e por resolver problemas complexos. Gosto de criar soluções com
+                        código que
+                        realmente impactem a vida das pessoas — seja com sistemas, automações ou jogos digitais.
+                    </p>
+                    <blockquote class="blockquote fs-6 text-center">
+                        💡 <em>“Transformar ideias em código é mais do que uma habilidade; é a minha motivação
+                            diária.”</em>
+                    </blockquote>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="assets/img/perfil.png" alt="Foto de Marcelo Bernardo" class="img-fluid img-profile">
+                </div>
+                <div class="col-12 text-center mt-3">
+                    <a href="assets/img/Profile (7).pdf" download class="btn btn-outline-primary px-4 py-2">
+                        Currículo
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                            class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="container-fluid mb-5 px-4" style="max-width: 1400px;">
+            <h2 class="text-center text-primary mb-5">Projetos</h2>
+
+            <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Primeiro Slide -->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="project-card w-50">
+                                <h4 class="project-title text-center">Minimercado</h4>
+                                <p>Interface de controle de vendas e estoque com <strong>HTML, CSS, JS</strong> e
+                                    <strong>Bootstrap</strong>.
+                                </p>
+                                <p><a href="https://github.com/marcelo-bernardo/proj_minimercado"
+                                        class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Acesse
+                                        o Projeto</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Segundo Slide -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="project-card w-50">
+                                <h4 class="project-title text-center">Jogo Interativo Demo</h4>
+                                <p>Jogo com <strong>JavaScript POO</strong>, navegação entre salas com objetos
+                                    interativos.</p>
+                                <p><a href="https://github.com/marcelo-bernardo/Jogo_demo_adventure"
+                                        class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Acesse
+                                        o Projeto</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terceiro Slide -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="project-card w-50">
+                                <h4 class="project-title text-center">MiniProjeto Python</h4>
+                                <p>App em <strong>Python</strong> que verifica temperatura com alertas. Simples e
+                                    funcional.</p>
+                                <p><a href="https://github.com/marcelo-bernardo/analise_dados-meterologicos"
+                                        class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Acesse
+                                        o Projeto</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselProjetos" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Projeto 1"></button>
+                    <button type="button" data-bs-target="#carouselProjetos" data-bs-slide-to="1"
+                        aria-label="Projeto 2"></button>
+                    <button type="button" data-bs-target="#carouselProjetos" data-bs-slide-to="2"
+                        aria-label="Projeto 3"></button>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- Habilidades e Tecnologias -->
+        <article class="container-fluid mb-5 px-4 rounded-4" style="max-width: 1400px;">
+            <h2 class="text-center text-primary mb-5 p-4 border-bottom border-2 rounded-bottom fw-bold shadow-sm">
+                Habilidades e Tecnologias
+            </h2>
+
+            <!-- Linguagens -->
+            <section class="mb-5">
+                <h3 class="text-center mb-4 text-primary fw-semibold">Linguagens</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Python</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        C</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        C++</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Java</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        JavaScript</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        HTML</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        CSS</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        SQL</div>
+                </div>
+            </section>
+
+            <!-- Ferramentas e Tecnologias -->
+            <section id="habilidades" class="mb-5">
+                <h3 class="text-center mb-4 text-primary fw-semibold">Ferramentas e Tecnologias</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Git & GitHub</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        MySQL</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Linux Ubuntu/Mint</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        VSCode</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        WordPress</div>
+                </div>
+            </section>
+
+            <!-- Bibliotecas e Frameworks -->
+            <section class="mb-5">
+                <h3 class="text-center mb-4 text-primary fw-semibold">Bibliotecas e Frameworks</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Bootstrap</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Pico CSS</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Pandas</div>
+                    <div
+                        class="p-3 px-4 text-center border border-primary rounded-4 bg-dark text-light shadow-sm fw-medium float-hover">
+                        Laravel</div>
+                </div>
+            </section>
+        </article>
+
+
+
+        <!-- Contatos -->
+        <section id="contatos" class="container-fluid mb-5 px-4 border border-primary rounded-4 p-5"
+            style="max-width: 1400px;">
+            <h3 class="text-primary mb-4 text-center fw-semibold">Contatos</h3>
+
+            <form action="https://formsubmit.co/marcelobernardo501@gmail.com" method="POST" class="mx-auto"
+                style="max-width: 600px;">
+                <div class="mb-4">
+                    <label for="nameInput" class="form-label text-light fw-medium">Nome</label>
+                    <input type="text" class="form-control bg-dark text-light border-primary" id="nameInput"
+                        placeholder="Seu nome" />
+                </div>
+
+                <div class="mb-4">
+                    <label for="emailInput" class="form-label text-light fw-medium">Email</label>
+                    <input type="email" class="form-control bg-dark text-light border-primary" id="emailInput"
+                        placeholder="name@example.com" />
+                </div>
+
+                <div class="mb-4">
+                    <label for="messageTextarea" class="form-label text-light fw-medium">Mensagem</label>
+                    <textarea class="form-control bg-dark text-light border-primary" id="messageTextarea" rows="4"
+                        placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-primary w-100 fw-semibold">Enviar</button>
+            </form>
+        </section>
+
+        <!--Redes Sociais-->
+        <div class="mt-8 text-center">
+            <p class="text-white h5">Ou fale comigo nas redes:</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/in/marceo-bernardo-de-miranda"
+                    class="hover:text-blue-500 hover:scale-125 transition-transform duration-200" target="_blank"
+                    aria-label="LinkedIn" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-linkedin m-1 float-on-scroll" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513
+                                16 1.146v13.708c0 .633-.526 1.146-1.175
+                                1.146H1.175C.526 16 0 15.487 0
+                                14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837
+                                0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4
+                                3.226 2.4 3.934c0 .694.521 1.248
+                                1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878
+                                1.232-.878.869 0 1.216.662 1.216
+                                1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274
+                                0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678
+                                0 7.225 0 7.225z" />
+                    </svg>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/marceo-bernardo"
+                    class="hover:text-gray-200 hover:scale-125 transition-transform duration-200" target="_blank"
+                    aria-label="GitHub" title="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-github m-1 float-on-scroll" viewBox="0 0 16 16">
+                        <path class="text-white" d="M8 0C3.58 0 0 3.58 
+                                0 8c0 3.54 2.29 6.53 5.47
+                                7.59.4.07.55-.17.55-.38
+                                0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                                1.08.58 1.23.82.72 1.21 1.87.87
+                                2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                                0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+                                0 0 .67-.21 2.2.82.64-.18 1.32-.27
+                                2-.27s1.36.09 2 .27c1.53-1.04
+                                2.2-.82 2.2-.82.44 1.1.16
+                                1.92.08 2.12.51.56.82 1.27.82
+                                2.15 0 3.07-1.87 3.75-3.65
+                                3.95.29.25.54.73.54 1.48
+                                0 1.07-.01 1.93-.01 2.2
+                                0 .21.15.46.55.38A8.01 8.01
+                                0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/5592994381852"
+                    class="hover:text-green-400 hover:scale-125 transition-transform duration-200" target="_blank"
+                    aria-label="WhatsApp" title="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-whatsapp m-1 float-on-scroll" viewBox="0 0 16 16">
+                        <path class="pico-color-green"
+                            d="M13.601 2.326A7.85 7.85 0 0 0
+                                7.994 0C3.627 0 .068
+                                3.558.064 7.926c0 1.399.366
+                                2.76 1.057 3.965L0
+                                16l4.204-1.102a7.9 7.9 0 0 0
+                                3.79.965h.004c4.368 0
+                                7.926-3.558 7.93-7.93A7.9 7.9
+                                0 0 0 13.6 2.326zM7.994
+                                14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56
+                                6.56 0 0 1-1.007-3.505c0-3.626
+                                2.957-6.584 6.591-6.584a6.56
+                                6.56 0 0 1 4.66 1.931 6.56 6.56
+                                0 0 1 1.928 4.66c-.004 3.639-2.961
+                                6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-4 mt-5 border-top footer">
+        <p class="mb-0 text-light">© 2025 Marcelo Bernardo. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
